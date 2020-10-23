@@ -1,0 +1,7 @@
+NomeVariavel22
+FileEnter
+123
+12.5
+gggggg
+22NomeVariavelErrada
+12,5
