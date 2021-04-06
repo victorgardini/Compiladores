@@ -54,7 +54,7 @@ comentar uma linha por vez */
 } /*reconhece mudança de linhas*/
 
 . {
-    printf("Token inválido: %s - ",yytext);
+    printf("Token inválido: %s - ", yytext);
     erros++;
     printf("Linha: %d\n", linhas);
 } /*Apresenta erro em qualquer coisa que não for uma
@@ -72,7 +72,7 @@ void main() {
     if (erros == 0)
         printf("\nCódigo analisado com sucesso!\n");
 }
-    
+
 int yywrap() {
     return 1;
 }
